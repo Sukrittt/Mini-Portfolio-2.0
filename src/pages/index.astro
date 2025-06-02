@@ -14,14 +14,14 @@ import { FootBanner } from "../react/foot-banner";
     <meta name="generator" content={Astro.generator} />
     <title>Mini Portfolio 2.0</title>
   </head>
-  <body class="h-screen text-[#F0AD24]">
+  <body class="h-screen text-[#F0AD24] overflow-hidden">
     <div class="h-[60%] bg-[#52201B]">
       <Navbar client:load />
 
       <Banner client:load />
     </div>
     <div class="h-[40%] bg-[#3C432C]">
-      <FootBanner />
+      <FootBanner client:load />
     </div>
   </body>
 </html>
