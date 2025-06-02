@@ -73,14 +73,14 @@ export const FootBanner = () => {
                 <span className="text-[13px] border-b font-bold w-full text-center tracking-wider">
                   RESTRICTED
                 </span>
-                <span className="text-[13px] w-[55%] text-center">
-                  Lorem ipsum dolor sit amet consectetur.
+                <span className="text-[13px] w-[60%] text-center">
+                  Under 17 requires accompanying parent or adult guardian.
                 </span>
               </div>
             </div>
 
             <span className="text-[#A9A9A9] text-xs">
-              © 2025 rights reserved. All rights Reserved.
+              © 2025 All rights Reserved.
             </span>
           </div>
         </div>

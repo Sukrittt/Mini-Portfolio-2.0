@@ -43,7 +43,7 @@ export const Banner = () => {
       <img
         src="/portrait.png"
         alt="portrait"
-        className="absolute left-[28%] top-80 h-[597px] w-[597px] z-50 portrait"
+        className="absolute left-[28%] top-[400px] h-[600px] w-[600px] z-50 portrait"
       />
 
       <div className="h-full flex justify-center relative">
