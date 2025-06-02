@@ -1,16 +1,27 @@
 ---
+import "../styles/global.css";
 
+import { Navbar } from "../react/navbar";
+import { Banner } from "../react/banner";
+import { FootBanner } from "../react/foot-banner";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Mini Portfolio 2.0</title>
+  </head>
+  <body class="h-screen text-[#F0AD24]">
+    <div class="h-[60%] bg-[#52201B]">
+      <Navbar client:load />
+
+      <Banner client:load />
+    </div>
+    <div class="h-[40%] bg-[#3C432C]">
+      <FootBanner />
+    </div>
+  </body>
 </html>
